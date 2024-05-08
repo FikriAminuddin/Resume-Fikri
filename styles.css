@@ -287,7 +287,18 @@ body {
     padding: 8px 16px;
   }
 
+  .container-education .location1,
+  .container-work .location1,
+  .container-work .location2,
+  .container-work .location3,
+  .container-work .location4 {
+    padding-left: 0; /* Reset padding for better layout */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px; /* Add spacing between items */
+  }
+
 }
+
 
 /* Button Styles */
 .download-button-container {
