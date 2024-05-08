@@ -267,39 +267,6 @@ body {
 }
 
 
-@media screen and (max-width: 768px) {
-  .page-container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .containerPage1,
-  .containerPage2 {
-    width: 90%;
-    margin: 10px 0;
-  }
-
-  .download-button-container {
-    margin: 20px 0;
-  }
-
-  .download-button {
-    padding: 8px 16px;
-  }
-
-  .container-education .location1,
-  .container-work .location1,
-  .container-work .location2,
-  .container-work .location3,
-  .container-work .location4 {
-    padding-left: 0; /* Reset padding for better layout */
-    text-align: left; /* Align text to the left */
-    margin-bottom: 5px; /* Add spacing between items */
-  }
-
-}
-
-
 /* Button Styles */
 .download-button-container {
   left: 40%;
@@ -334,3 +301,125 @@ body {
   margin-right: 8px;
   font-size: 18px;
 }
+
+/* General CSS styles */
+
+/* For small devices (phones) */
+@media only screen and (max-width: 768px) {
+  /* CSS styles for small devices */
+  body {
+    font-size: 12px; /* Adjust font size for better readability */
+  }
+
+  .containerPage1,
+  .containerPage2 {
+    margin-right: 20px; /* Adjust margins for better spacing */
+    margin-left: 20px;
+  }
+
+  .location1,
+  .location2,
+  .location3,
+  .location4,
+  .year-job1,
+  .year-job2,
+  .year-job3,
+  .year-job4,
+  .year-field1,
+  .year-field2,
+  .yearp1,
+  .yearp2,
+  .yearp3,
+  .yearc1,
+  .yearc2,
+  .yearc3,
+  .yearc4 {
+    padding-left: 0; /* Reset padding for better layout */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px; /* Add spacing between items */
+  }
+
+  .nameUni,
+  .nameCom1,
+  .separator,
+  .work,
+  .container-education .list,
+  .container-work .list-work,
+  .container-project .list-project,
+  .container-awards .list-awards,
+  .container-cert .list-cert,
+  .container-skills .list-skills,
+  .container-ref .list-ref {
+    width: 100%; /* Adjust width for better layout */
+  }
+}
+
+/* For medium devices (tablets) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS styles for medium devices */
+  body {
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .containerPage1,
+  .containerPage2 {
+    margin-right: 40px; /* Adjust margins for better spacing */
+    margin-left: 40px;
+  }
+
+  .location1,
+  .location2,
+  .location3,
+  .location4,
+  .year-job1,
+  .year-job2,
+  .year-job3,
+  .year-job4,
+  .year-field1,
+  .year-field2,
+  .yearp1,
+  .yearp2,
+  .yearp3,
+  .yearc1,
+  .yearc2,
+  .yearc3,
+  .yearc4 {
+    padding-left: 10px; /* Adjust padding for better layout */
+    margin-bottom: 10px; /* Add spacing between items */
+  }
+}
+
+/* For large devices (desktops, laptops) */
+@media only screen and (min-width: 1025px) {
+  /* CSS styles for large devices */
+  body {
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+
+  .containerPage1,
+  .containerPage2 {
+    margin-right: 60px; /* Adjust margins for better spacing */
+    margin-left: 60px;
+  }
+
+  .location1,
+  .location2,
+  .location3,
+  .location4,
+  .year-job1,
+  .year-job2,
+  .year-job3,
+  .year-job4,
+  .year-field1,
+  .year-field2,
+  .yearp1,
+  .yearp2,
+  .yearp3,
+  .yearc1,
+  .yearc2,
+  .yearc3,
+  .yearc4 {
+    padding-left: 20px; /* Adjust padding for better layout */
+  }
+}
+
