@@ -91,11 +91,11 @@ html {
   margin: 0px auto 0px; 
   
   .list {
-    padding-left: 40px;
+    padding-left: 100px;
   }
 
   .location1 {
-    padding-left: 95px;
+    padding-left: 30px;
   }
 
   .location2 {
@@ -303,110 +303,5 @@ body {
 }
 
 /* General CSS styles */
-
-/* For small devices (phones) */
-@media only screen and (max-width: 768px) {
-  .container-work .location1 {
-    padding-left: 20px; /* Adjust padding for small devices */
-  }
-
-  .container-work .location2 {
-    padding-left: 10px; /* Adjust padding for small devices */
-  }
-
-  .container-work .location3 {
-    padding-left: 30px; /* Adjust padding for small devices */
-  }
-
-  .container-work .location4 {
-    padding-left: 25px; /* Adjust padding for small devices */
-  }
-
-  .container-work .year-job1 {
-    padding-left: 20px; /* Adjust padding for small devices */
-  }
-
-  .container-work .year-job2 {
-    padding-left: 15px; /* Adjust padding for small devices */
-  }
-
-  .container-work .year-job3 {
-    padding-left: 18px; /* Adjust padding for small devices */
-  }
-
-  .container-work .year-job4 {
-    padding-left: 13px; /* Adjust padding for small devices */
-  }
-}
-
-/* For medium devices (tablets) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .container-work .location1 {
-    padding-left: 50px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .location2 {
-    padding-left: 20px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .location3 {
-    padding-left: 70px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .location4 {
-    padding-left: 60px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .year-job1 {
-    padding-left: 50px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .year-job2 {
-    padding-left: 35px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .year-job3 {
-    padding-left: 40px; /* Adjust padding for medium devices */
-  }
-
-  .container-work .year-job4 {
-    padding-left: 30px; /* Adjust padding for medium devices */
-  }
-}
-
-/* For large devices (desktops, laptops) */
-@media only screen and (min-width: 1025px) {
-  .container-work .location1 {
-    padding-left: 100px; /* Adjust padding for large devices */
-  }
-
-  .container-work .location2 {
-    padding-left: 50px; /* Adjust padding for large devices */
-  }
-
-  .container-work .location3 {
-    padding-left: 120px; /* Adjust padding for large devices */
-  }
-
-  .container-work .location4 {
-    padding-left: 100px; /* Adjust padding for large devices */
-  }
-
-  .container-work .year-job1 {
-    padding-left: 100px; /* Adjust padding for large devices */
-  }
-
-  .container-work .year-job2 {
-    padding-left: 70px; /* Adjust padding for large devices */
-  }
-
-  .container-work .year-job3 {
-    padding-left: 80px; /* Adjust padding for large devices */
-  }
-
-  .container-work .year-job4 {
-    padding-left: 60px; /* Adjust padding for large devices */
-  }
-}
 
 
