@@ -171,6 +171,18 @@ html {
   .yearp3 {
     padding-left: 303px;
   }
+
+  .yearp4 {
+    padding-left: 335px;
+  }
+
+  .yearp5 {
+    padding-left: 65px;
+  }
+
+  .yearp6 {
+    padding-left: 303px;
+  }
 }
 
 .container-awards {
@@ -191,18 +203,26 @@ html {
   }
 
   .yearc1 {
-    padding-left: 167px;
+    padding-left: 350px;
   }
 
   .yearc2 {
-    padding-left: 35px;
+    padding-left: 412px;
   }
 
   .yearc3 {
-    padding-left: 110px;
+    padding-left: 252px;
   }
 
   .yearc4 {
+    padding-left: 110px;
+  }
+
+  .yearc5 {
+    padding-left: 310px;
+  }
+
+  .yearc6 {
     padding-left: 310px;
   }
 }
