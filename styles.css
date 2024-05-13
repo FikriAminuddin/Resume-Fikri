@@ -236,6 +236,20 @@ body {
   padding-bottom: 50px;
 }
 
+
+/* .page-container {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.page-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 20px; /* Add space on the right */
+  margin-left: 20px; /* Add space on the left */
+}
+
 .containerPage1 {
   max-width: 700px;   
   background: #fff;
@@ -243,9 +257,9 @@ body {
   border-radius: 3px;  
   padding: 40px;
   margin-top: 50px;
-  margin-bottom: 400px; /* Tambahkan margin bawah */
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-bottom: 400px; 
+  margin-right: 5px; /* Adjust margin-right to create space between pages */
+  flex-basis: calc(50% - 15px); /* Adjust width for responsiveness */
 }
 
 .containerPage2 {
@@ -256,15 +270,14 @@ body {
   padding: 40px;
   padding-top: 0px;
   margin-top: 50px;
-  margin-bottom: 200px; /* Tambahkan margin bawah */
-  margin-right: 150px;
-  margin-left: auto;
+  margin-bottom: 200px;
+  margin-left: 5px; /* Adjust margin-left to create space between pages */
+  flex-basis: calc(50% - 15px); /* Adjust width for responsiveness */
 }
 
-.page-container {
-  display: flex;
-  justify-content: space-between;
-}
+
+
+
 
 
 /* Button Styles */
@@ -302,6 +315,19 @@ body {
   font-size: 18px;
 }
 
-/* General CSS styles */
+/* Styles for desktop screens */
+@media only screen and (min-width: 1024px) {
+  /* Add your desktop-specific styles here */
+}
+
+/* Styles for tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Add your tablet-specific styles here */
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Add your mobile-specific styles here */
+}
 
 
