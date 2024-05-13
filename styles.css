@@ -91,15 +91,15 @@ html {
   margin: 0px auto 0px; 
   
   .list {
-    padding-left: 100px;
+    padding-left: 40px;
   }
 
   .location1 {
-    padding-left: 30px;
+    padding-left: 100px;
   }
 
   .location2 {
-    padding-left: 30px;
+    padding-left: 250px;
   }
 
   .year-field1 {
@@ -216,14 +216,26 @@ html {
   }
 }
 
-  .container-ref {
-    margin-right: 20px;
-    margin: 0px auto 0px; 
-    
-    .list-ref {
-      padding-left: 40px;
-    }
+.container-ref {
+  margin-right: 20px;
+  margin: 0px auto 0px; 
 }
+
+.list-ref {
+  padding-left: 40px;
+}
+
+.list-ref-left {
+  text-align: left;
+}
+
+.list-ref-right {
+  text-align: right;
+}
+
+
+
+
 
 body {
   min-height: 100%;  
